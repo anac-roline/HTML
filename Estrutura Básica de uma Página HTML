@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Primeira Página</title>
+    <!--A tag <title> define o título da página (aparece na aba do nabegador)-->
+</head>
+<body>
+    <!--Todo conteúdo vísivel da pagina fica dentro da tag <body>-->
+
+        <h1>Olá, mundo!</h1>
+        <p>Esta é minha primeira página HTML.</p>
+        <p>Meu nome é Ana Caroline,
+            tenho 24 anos e moro em Brasília.
+            <p>Atualmente estou cursando Ciência da Computação.</p>
+        <p>Estou no 2° semestre.</p>
+        </p>
+    
+    
+</body>
+</html>
