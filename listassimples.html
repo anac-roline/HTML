@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Primeira Página</title>
+    <!--A tag <title> define o título da página (aparece na aba do nabegador)-->
+</head>
+<body>
+    <!--Todo conteúdo vísivel da pagina fica dentro da tag <body>-->
+
+        <h1>Olá, mundo!</h1>
+        <p>Esta é minha primeira página HTML.</p>
+        <p>Meu nome é Ana Caroline,
+            tenho 24 anos e moro em Brasília.
+            <p>Atualmente estou cursando Ciência da Computação.</p>
+        <p>Estou no 2° semestre.</p>
+        </p>
+
+        <h2>Lista de Compras</h2>
+        <ul>
+    <!--<ul> cria uma lista NÃO ordenada (com marcadores)-->
+
+                <li>Macã</li>
+                <li>Pão</li>
+                <li>Leite</li>
+        </ul>
+
+        <h2>Top 3 Filmes</h2>
+        <ol>
+     <!--<ol> cria uma lista ordenada (numérica)-->
+                <li>Interestelar</li>
+                <li>Matrix</li>
+                <li>Toy Story</li>
+        </ol>
+
+        <h2>Lista de Tarefas Diárias</h2>
+        <ul>
+            <li>Lavar a Louça</li>
+            <li>Estudar</li>
+            <li>Limpar o Chão</li>
+            <li>Guardar a Louça</li>
+            <li>Arrumar o Quarto</li>
+        </ul>
+
+        <h2>Lista dos meus 5 Países Favoritos</h2>
+        <ol>
+            <li>República Dominicana</li>
+            <li>Argentina</li>
+            <li>Brasil</li>
+            <li>Londres</li>
+            <li>Estados Unidos</li>
+        </ol>
+
+    <!--Link para outro site-->
+        <a href="https://www.google.com">Clique aqui para ir ao Google</a>
+    <!--O atributo href define o destino do link-->
+        <p></p>
+
+    <!--Imagem local (salve uma imagem na mesma pasta do seu HTML)-->
+        <img src="Imagem do WhatsApp de 2025-04-03 à(s) 16.37.32_60bc4b3d.jpg" alt="Foto da Patolina" width="500" height="auto">
+
+    <!-- O atributo alt descreve a imagem para acessibilidade-->
+         <p>
+
+    <!--Link para YouTube-->
+        <a href="https://www.youtube.com">Clique aqui para ir ao YouTube</a></p>
+
+    <!-- O atributo href define o destino do link-->
+
+    <!--Imagem de um Cachorro-->
+        <p>
+        <img src="Foto-de-Cachorro-6.jpg" alt="Foto de um Cachorro" width="500" height="auto"> </p>
+        <p>
+        <table border="1">
+    <!--<table> inicia a tabela | border="1" adiciona bordas (não é usado em CSS moderno)-->
+                <tr>
+    <!--<tr> cria uma linha (table row)-->
+                        <th>Nome</th> <!--<th> cabeçalho da tabela-->
+                        <th>Idade</th>
+                </tr>
+                <tr>
+                        <td>Maria</td> <!--<td> célula comum-->
+                        <td>25</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>30</td>
+                </tr>
+        </table></p>
+        <table border="1">
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 4000.00</td>
+                <td>2 Notekooks</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+    <!--input type="text"> cria um campo de texto-->
+
+             <br> <!--<br> quebra de linha-->
+
+             <label for="email">E-mail: </label>
+             <input type="email" id="email" name="email">
+
+             <br>
+
+             <!--Campo de Senha -->
+             <label for="senha">Senha:</label>
+             <input type="password" id="senha" name="senha">
+            <!--type="password" esconde os caracteres digitados-->
+
+            <br>
+
+            <!--Dropdown de Cidades-->
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade">
+                <!--<select> cria uma  lista dropdown-->
+                    <option value="sp">São Paulo</option>
+                    <option value="df">Brasília</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="bh">Belo Horizonte</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+
+            <br>
+
+            <input type="checkbox" id="noticias" name="noticias">
+            <label for="noticias">Desejo receber notícias</label>
+
+            <br>
+
+            <input type="submit" value="Enviar">
+
+            <!--Botão para enviar o formulário-->
+
+        </form>
+    
+
+        
+    
+    
+</body>
+</html>
