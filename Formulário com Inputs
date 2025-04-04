@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro</h1>
+        <!--Campo de e-mail-->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <br>
+
+        <!--Campo de data-->
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data">
+        <br>
+
+        <!--Upload de arquivo-->
+        <label for="foto">Envie sua foto:</label>
+        <input type="file" id="foto">
+        <br>
+        <label for="biografia">Biorafia</label>
+        <textarea id="biografia" name="biografia" rows="4" cols="40" 
+        placeholder="Conte um pouco sobre você..."></textarea>
+    </form>
+    
+</body>
+</html>
