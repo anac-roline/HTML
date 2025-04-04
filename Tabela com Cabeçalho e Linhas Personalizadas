@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços</title>
+</head>
+<body>
+    <h1>Tabela de Preços</h1>
+
+    <table border="1">
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Estoque</th>
+    </tr>   
+    <tr>
+        <td>Notebook</td>
+        <td>R$ 3.500</td>
+        <td>10 unidades</td>
+
+    </tr>
+    <tr>
+        <td>Smartphone</td>
+        <td>R$ 1.200</td>
+        <td>25 unidades</td>
+    </tr>
+    <tr>
+        <td>Tablet</td>
+        <td>R$ 800</td>
+    </tr>
+    </table>
+
+    
+</body>
+</html>
